@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* الباليتة الخضراء النظيفة */
+  --pakistan-green: #283618;
+  --cornsilk: #fefae0;
+  --dark-moss-green: #606c38;
+  --light-moss: #7e8d52;
+
+  /* ربط مكونات shadcn بدرجات الأخضر والأوف وايت */
+  --background: var(--pakistan-green);
+  --foreground: var(--cornsilk);
+
+  --card: #1f2b13;
+  --card-foreground: var(--cornsilk);
+
+  --popover: #1f2b13;
+  --popover-foreground: var(--cornsilk);
+
+  /* الأزرار الرئيسية أصبحت بالزيتي الفاتح مع نص أوف وايت */
+  --primary: var(--dark-moss-green);
+  --primary-foreground: var(--cornsilk);
+
+  /* الأزرار الثانوية بدرجة ناعمة */
+  --secondary: #364821;
+  --secondary-foreground: var(--cornsilk);
+
+  --accent: var(--light-moss);
+  --accent-foreground: var(--pakistan-green);
+
+  --muted: #364821;
+  --muted-foreground: #d4d8c8;
+
+  --destructive: #a83232;
+  --border: rgba(254, 250, 224, 0.15);
+  --input: rgba(254, 250, 224, 0.2);
+  --ring: var(--cornsilk);
+
+  --earth-yellow: #dda15e;
+  --tigers-eye: #bc6c25;
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  /* ألوان مخصصة */
+  --color-pakistan-green: var(--pakistan-green);
+  --color-cornsilk: var(--cornsilk);
+  --color-dark-moss: var(--dark-moss-green);
+  --color-light-moss: var(--light-moss);
+
+  /* تسجيل متغيرات shadcn */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-earth-yellow: var(--earth-yellow);
+  --color-tigers-eye: var(--tigers-eye);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+/* إخفاء السكرول بار لمتصفحات Chrome و Safari و Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* إخفاء السكرول بار لمتصفح Firefox ومتصفحات IE */
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

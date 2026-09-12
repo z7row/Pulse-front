@@ -1,0 +1,90 @@
+"use client";
+
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Settings } from "lucide-react";
+import { profile } from "@/lib/profile.st";
+import { ProfileHeaderSkeleton } from "./ProfileSkeleton";
+
+export default function ProfileHeaderME({user}:{ user: profile | null}) {
+  if (!user) return <ProfileHeaderSkeleton />; 
+
+  console.log("user" , user)
+  return (
+    <section className="relative">
+      {/* Cover */}
+      <div className="h-56 overflow-hidden rounded-4xl border border-border/50 bg-muted sm:h-72">
+        <Image
+          src={user?.banner || "/photos/hero-bg.jpg"}
+          alt="Cover"
+          width={1600}
+          height={600}
+          className="h-full w-full object-cover"
+        />
+
+        <div className="absolute inset-x-0 top-0 h-40 bg-linear-to-b rounded-4xl from-black/30 to-transparent" />
+      </div>
+
+      {/* Profile */}
+      <div className="relative -mt-18 px-5 sm:px-10">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-end">
+            <div className="overflow-hidden rounded-full border bg-background ">
+              <Image
+                src={user?.profilephoto || "/photos/logo/logo-bg-up.jpg"}
+                alt="Zeyad"
+                width={150}
+                height={150}
+                className="h-32 w-32 object-cover sm:h-36 sm:w-36"
+              />
+            </div>
+
+            <div className="pb-1">
+              <div className="flex items-center gap-2">
+                <h1 className="text-3xl font-semibold tracking-tight">
+                  {user?.name || "undefined"}
+                </h1>
+
+               {user?.goal ? <span className="rounded-full bg-primary px-2.5 py-1 text-xs text-primary-foreground">
+                  {user?.goal}
+                </span> : ""}
+              </div>
+
+              <p className=" h-14 text-muted-foreground">
+                {user?.pio || ""}
+              </p>
+            </div>
+          </div>
+         <Button
+            variant="outline"
+            className="w-fit gap-2"
+            onClick={() => {
+              window.location.href = "/profile/me/edit";
+            }}
+          >
+            <Settings className="size-4" />
+            Edit Profile
+          </Button>
+        </div>
+
+        {/* Stats */}
+        {/* <div className="mt-8 flex gap-8 border-b border-border/50 pb-6">
+          <div>
+            <p className="text-2xl font-semibold">24</p>
+            <p className="text-sm text-muted-foreground">Posts</p>
+          </div>
+
+          <div>
+            <p className="text-2xl font-semibold">1.2K</p>
+            <p className="text-sm text-muted-foreground">Followers</p>
+          </div>
+
+          <div>
+            <p className="text-2xl font-semibold">384</p>
+            <p className="text-sm text-muted-foreground">Likes</p>
+          </div>
+        </div> */}
+      </div>
+    </section>
+  );
+}
