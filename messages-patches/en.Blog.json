@@ -1,0 +1,26 @@
+{
+  "Blog": {
+    "hero": {
+      "eyebrow": "Pulse Journal",
+      "titleLine1": "Stories",
+      "titleLine2": "from a",
+      "titleLine3": "quieter world.",
+      "description": "Nature, mindfulness, slow living and thoughtful ideas for people who want a little less noise."
+    },
+    "card": {
+      "typeBlog": "Blog",
+      "typePost": "Post",
+      "recently": "Recently",
+      "loading": "Loading...",
+      "author": "Author"
+    },
+    "controls": {
+      "eyebrow": "Fresh from the journal",
+      "title": "Latest",
+      "all": "All",
+      "blogs": "Blogs",
+      "posts": "Posts",
+      "searchPlaceholder": "Search..."
+    }
+  }
+}

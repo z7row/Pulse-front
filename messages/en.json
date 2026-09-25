@@ -1,0 +1,339 @@
+{
+  "HomePage": { "title": "Welcome", "description": "This is a translation example" },
+  "Hero": {
+    "eyebrow": "A Digital Space for Slow Living",
+    "words": ["Breathe", "Relax", "Explore"],
+    "description": "Long-form stories about nature and stillness, written to be read slowly — no ads, no noise, just the page.",
+    "cta": "Start Reading",
+    "scroll": "SCROLL"
+  },
+  "Nav": {
+    "home": "Home",
+    "blogs": "Blogs",
+    "download": "Download",
+    "about": "About",
+    "login": "Login",
+    "switchLanguage": "Switch Language"
+  },
+  "Footer": {
+    "tagline": "A quiet corner of the internet for people who'd rather read slowly than scroll fast.",
+    "explore": "Explore",
+    "follow": "Follow",
+    "home": "Home",
+    "blogs": "Blogs",
+    "download": "Download",
+    "about": "About",
+    "termsPrefix": "By signing in, you agree to our",
+    "terms": "Terms of Service",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "rights": "All rights reserved",
+    "poweredBy": "Powered By"
+  },
+  "About": {
+    "journalLabel": "The Pulse Journal",
+    "headlinePart1": "A quieter place",
+    "headlinePart2": "to be.",
+    "intro": "Pulse is a digital magazine for people who want to step away from the noise and reconnect with nature, thoughtful ideas, and themselves.",
+    "exploreJournal": "Explore the journal",
+    "philosophyLabel": "The Pulse Philosophy",
+    "philosophyTitlePart1": "A quiet place to",
+    "philosophyTitlePart2": "step outside the noise.",
+    "philosophyDesc1": "Pulse is a digital magazine built for slow reading. No pop-ups, no autoplay, no endless feed — just long-form stories about nature, stillness, and the small rituals that bring you back to yourself. Every page is paced like a walk through the woods: unhurried, and worth the time.",
+    "philosophyDesc2": "Open it when the day feels loud. Close it feeling like you actually breathed.",
+    "digitalMindfulness": "Digital Mindfulness",
+    "aboutLabel": "About Pulse",
+    "aboutTitlePart1": "Read less.",
+    "aboutTitlePart2": "Feel more.",
+    "aboutDesc1": "We believe the internet can be a place for stillness too. Pulse brings together stories, photography and ideas around nature and slow living without unnecessary noise.",
+    "aboutDesc2": "Every piece is created to give you a few quiet minutes away from the constant rhythm of the digital world."
+  },
+  "AboutPage": {
+    "eyebrow": "The Person Behind Pulse",
+    "greeting": "Hi, I'm Zeyad.",
+    "intro": "A full-stack developer who builds calm, well-made products — and Pulse is one of them.",
+    "whyLabel": "Why Pulse",
+    "whyTitle": "Built out of a simple frustration",
+    "whyDesc1": "Most of the internet is built to keep you scrolling. Pulse started as the opposite idea — a place to actually finish reading something, without ads fighting for your attention or an algorithm deciding what's next.",
+    "whyDesc2": "I designed and built every part of it — from the reading experience down to the editor writers use to publish — the way I'd want to use it myself.",
+    "prexLabel": "A PREX Product",
+    "prexTitle": "Made under PREX",
+    "prexDesc": "Pulse is built and maintained by PREX, a software agency I run focused on crafting digital products for the Egyptian market. Pulse is one of ours — start to finish.",
+    "visitPrex": "Visit PREX",
+    "followFacebook": "Follow on Facebook"
+  },
+  "Features": {
+    "label": "Why Pulse",
+    "title": "Built to slow you down",
+    "items": {
+      "zeroDistractions": { "title": "Zero Distractions", "text": "No ads, no pop-ups, no autoplay video. Just the words and the space around them." },
+      "natureThemes": { "title": "Nature-Led Themes", "text": "Every layout borrows its rhythm from the outdoors — soft light, natural texture, room to breathe." },
+      "mindfulPacing": { "title": "Mindful Pacing", "text": "Stories are written and formatted to be read slowly, not skimmed. Long-form, on purpose." },
+      "curated": { "title": "Curated, Not Endless", "text": "A small, hand-picked library instead of an infinite feed. Quality over volume, always." }
+    },
+    "fromJournal": "From the journal",
+    "storiesHeadlinePart1": "Stories worth",
+    "storiesHeadlinePart2": "slowing down for.",
+    "viewAll": "View all stories",
+    "journalTag": "Journal",
+    "cards": {
+      "slowLiving": { "title": "Slow Living", "text": "Thoughts and stories about creating a quieter, more intentional life." },
+      "intoNature": { "title": "Into Nature", "text": "Places, landscapes and moments that invite you to slow down." },
+      "quietMinds": { "title": "Quiet Minds", "text": "Simple ideas for finding clarity in a noisy digital world." }
+    }
+  },
+  "Gallery": {
+    "label": "Moments of Stillness",
+    "title": "The world outside your window",
+    "photos": { "canopyLight": "Canopy Light", "fogTrail": "Fog Trail", "mossStone": "Moss & Stone", "riverBend": "River Bend" }
+  },
+  "Journal": {
+    "label": "From the Journal",
+    "title": "Stories worth slowing down for",
+    "readFull": "Read the full journal",
+    "posts": {
+      "oneThing": { "tag": "Slow Living", "title": "The Art of Doing One Thing at a Time", "excerpt": "Why single-tasking through a rainy morning taught me more than any productivity app ever did.", "readTime": "6 min read" },
+      "forestPatience": { "tag": "Nature", "title": "What the Forest Teaches About Patience", "excerpt": "A season doesn't rush itself — notes from three months of watching one trail change.", "readTime": "8 min read" },
+      "screensOff": { "tag": "Mindfulness", "title": "Screens Off, Senses On", "excerpt": "A simple weekly ritual for putting the phone down without feeling like you're missing out.", "readTime": "5 min read" }
+    }
+  },
+  "FAQ": {
+    "label": "Questions",
+    "titlePart1": "Things you",
+    "titlePart2": "might wonder.",
+    "items": {
+      "whatIsPulse": { "q": "What is Pulse?", "a": "Pulse is a digital magazine focused on nature, mindfulness, slow living and thoughtful digital experiences." },
+      "isFree": { "q": "Is Pulse free to read?", "a": "Yes. Every story on Pulse is free, ad-free, and always will be. We're funded by readers who choose to support us directly, not by advertisers." },
+      "howOften": { "q": "How often do you publish new stories?", "a": "A couple of times a week. We'd rather publish one story worth your time than five that aren't." },
+      "guestWriters": { "q": "Do you accept guest writers?", "a": "We do. If you write about nature, mindfulness, or slow living, reach out through the contact form below with a sample of your work." }
+    }
+  },
+  "Contact": {
+    "label": "Stay connected",
+    "titlePart1": "Keep a little",
+    "titlePart2": "quiet with you.",
+    "description": "Receive occasional stories, places and ideas designed to make your digital world feel a little calmer.",
+    "getInTouch": "Get in touch",
+    "exploreStories": "Explore stories"
+  },
+  "Escape": {
+    "label": "Take a breath",
+    "title": "Escape.",
+    "description": "Leave the noise behind for a moment. Explore a place where stories move slowly and every image gives you space to breathe."
+  },
+  "Error": {
+    "offTrail": "Off the Trail",
+    "notFoundTitle": "404",
+    "serverErrorTitle": "500",
+    "description": "This page wandered off somewhere in the woods. Let's get you back to solid ground.",
+    "backHome": "Back to Pulse"
+  },
+  "Auth": {
+    "layout": { "tagline": "A quiet place to read.", "taglineDetail": "No ads, no noise — just long-form stories, paced like a walk through the woods." },
+    "loginPage": { "tagline": "Good to see you again.", "taglineDetail": "Pick up right where you left off — your saved stories are waiting." },
+    "signupPage": { "tagline": "A quiet place to read.", "taglineDetail": "No ads, no noise — just long-form stories, paced like a walk through the woods." },
+    "verifyEmail": {
+      "tagline": "Almost there.",
+      "taglineDetail": "Check your inbox for the 6-digit verification code.",
+      "title": "Verify your email",
+      "subtitlePrefix": "We sent a 6-digit verification code to",
+      "subtitleSuffix": ".",
+      "verifyCode": "Verify Code",
+      "errorEmpty": "enter verificaion code!!",
+      "errorGeneric": "there's an error",
+      "noCode": "Didn't receive the code?",
+      "resend": "Resend code",
+      "resent": "Resent! Check inbox"
+    },
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in to keep reading where you left off.",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Log In",
+      "submitting": "Logging in…",
+      "orContinueWith": "or continue with",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Sign up",
+      "invalidCredentials": "Invalid email or password",
+      "genericError": "Something went wrong"
+    },
+    "signup": {
+      "title": "Get started",
+      "subtitle": "Create your account — it only takes a minute.",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "you@example.com",
+      "passwordPlaceholder": "Password",
+      "confirmPlaceholder": "Confirm password",
+      "termsPrefix": "I agree to the",
+      "terms": "Terms",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "submit": "Sign Up",
+      "submitting": "Creating account…",
+      "orContinueWith": "or continue with",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "passwordsDontMatch": "Passwords don't match",
+      "passwordMinLength": "Password must be at least 8 characters",
+      "mustAgree": "Please agree to the Terms to continue",
+      "genericError": "Something went wrong"
+    },
+    "passwordStrength": { "weak": "Weak password", "fair": "Fair password", "good": "Good password", "strong": "Strong password" },
+    "sideBar": {
+      "openSidebar": "Open sidebar",
+      "collapseSidebar": "Collapse sidebar",
+      "logout": "Log out",
+      "logoutTitle": "Log Out?",
+      "logoutDesc": "You will LOG OUT from this account",
+      "cancel": "Cancel",
+      "profile": "Profile",
+      "login": "Login",
+      "blogLink": "Blog"
+    }
+  },
+  "Blog": {
+    "hero": { "eyebrow": "Pulse Journal", "titleLine1": "Stories", "titleLine2": "from a", "titleLine3": "quieter world.", "description": "Nature, mindfulness, slow living and thoughtful ideas for people who want a little less noise." },
+    "card": { "typeBlog": "Blog", "typePost": "Post", "recently": "Recently", "loading": "Loading...", "author": "Author" },
+    "controls": { "eyebrow": "Fresh from the journal", "title": "Latest", "all": "All", "blogs": "Blogs", "posts": "Posts", "searchPlaceholder": "Search..." },
+    "pagination": { "prev": "Previous page", "next": "Next page", "page": "Page {number}" },
+    "like": { "like": "Like", "unlike": "Unlike" },
+    "page": { "loading": "Loading blogs...", "noResultsTitle": "No stories found", "noResultsDesc": "Try another search or category.", "addBlog": "Add Blog" },
+    "header": { "journal": "Journal", "home": "Home", "blog": "Blog", "about": "About" },
+    "detail": {
+      "loading": "Loading...",
+      "commentsCount": "Comments ({count})",
+      "addComment": "Add Comment",
+      "cancel": "Cancel",
+      "commentPlaceholder": "add your comment",
+      "publish": "Publish",
+      "noComments": "No comments yet.",
+      "commentFailed": "There's a problem"
+    },
+    "commentCard": {
+      "loading": "Loading...",
+      "user": "User",
+      "unknownAuthor": "Unknown Author",
+      "deleteTitle": "Are you absolutely sure?",
+      "deleteDesc": "This action cannot be undone. This will permanently delete your comment.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "form": {
+      "titleLabel": "Title",
+      "titlePlaceholder": "Blog title",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Technology",
+      "typeLabel": "Type",
+      "typeBlog": "Blog",
+      "typePost": "Post",
+      "authorLabel": "Author",
+      "authorPlaceholder": "Author name",
+      "contentLabel": "Content",
+      "contentPlaceholder": "Write your content...",
+      "create": "Create Blog",
+      "update": "Update Blog"
+    },
+    "select": { "placeholder": "Select category" },
+    "editor": {
+      "changeCover": "Change Cover",
+      "uploadCover": "Upload Cover",
+      "addCover": "Add a cover image (optional)",
+      "coverPreview": "Cover preview",
+      "removeCover": "Remove cover image",
+      "writeTab": "Write",
+      "previewTab": "Preview",
+      "markdownHint": "Markdown supported — **bold**, *italic*, # heading, - list, > quote",
+      "editorPlaceholder": "Write your story in Markdown…"
+    },
+    "breadcrumb": { "blogs": "Blogs", "this": "this." }
+  },
+  "Profile": {
+    "tabs": { "posts": "Posts", "comments": "Comments" },
+    "header": { "developerBadge": "Developer", "editProfile": "Edit Profile" },
+    "posts": {
+      "empty": "No posts published yet.",
+      "generalCategory": "General",
+      "editTitle": "Edit",
+      "deleteTitle": "Delete",
+      "deleteConfirmTitle": "Delete confirmation",
+      "deleteConfirmDesc": "Are you sure you want to delete this post? This action cannot be undone.",
+      "cancel": "Cancel",
+      "deleting": "Deleting...",
+      "confirmDelete": "Confirm delete",
+      "deleteError": "Something went wrong while deleting the post"
+    },
+    "comments": {
+      "empty": "No comments yet.",
+      "commentedOn": "Commented on",
+      "editTitle": "Edit",
+      "deleteTitle": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "deleteConfirmTitle": "Delete comment",
+      "deleteConfirmDesc": "Are you sure you want to delete this comment?",
+      "deleting": "Deleting...",
+      "delete": "Delete",
+      "deleteError": "Something went wrong while deleting the comment",
+      "updateError": "Something went wrong while updating the comment"
+    }
+  },
+  "Legal": {
+    "lastUpdated": "Last updated",
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Terms of Service",
+      "lastUpdated": "September 2026",
+      "intro1": "We tried to keep this readable rather than burying it in boilerplate. It covers the basics: what you can expect from Pulse, and what we expect from you.",
+      "introNote": "Note: this is placeholder legal content drafted for a template — have it reviewed by a lawyer before it governs a live product.",
+      "sections": {
+        "acceptance": { "heading": "1. Using Pulse", "body": "By creating an account or reading a story on Pulse, you're agreeing to these terms. If something here doesn't sit right with you, the simplest option is not to use the platform — but we'd genuinely rather you told us instead, so we can fix it." },
+        "accounts": { "heading": "2. Your Account", "body1": "You're responsible for keeping your login details private and for anything that happens under your account. If you signed up with Google or GitHub, the same applies — we just trust them to verify who you are.", "body2": "You need to be old enough to legally agree to these terms in your country. If we find an account that doesn't meet that bar, we may suspend it." },
+        "content": { "heading": "3. Stories You Publish", "body1": "When you write a post on Pulse, it stays yours. Publishing it here gives us permission to host, display, and distribute it on the platform — nothing more. We don't claim ownership of your words.", "body2": "You're responsible for what you publish. Don't post anything you don't have the right to share, and don't use Pulse to publish content that's illegal, harassing, or knowingly false." },
+        "conduct": { "heading": "4. Community Guidelines", "body": "Pulse is built around slow, thoughtful reading — we'd like the comments and interactions here to match that. Be respectful, don't spam, and don't try to manipulate likes, views, or comment counts. Accounts that consistently break this may be limited or removed." },
+        "termination": { "heading": "5. Suspending or Closing an Account", "body": "You can delete your account at any time. We may suspend or remove an account that violates these terms, with notice where reasonably possible." },
+        "disclaimer": { "heading": "6. No Guarantees", "body": "Pulse is provided \"as is.\" We work to keep it reliable and the content accurate, but we can't promise it will always be available, error-free, or exactly what you expected — especially while the platform is actively evolving." },
+        "changes": { "heading": "7. Changes to These Terms", "body": "We may update these terms as Pulse grows. If a change is significant, we'll do our best to let you know before it takes effect. Continuing to use Pulse after an update means you accept the new terms." },
+        "contact": { "heading": "8. Contact", "bodyPrefix": "Pulse is a product of", "bodySuffix": ". Questions about these terms can be sent through the contact details on the PREX website." }
+      }
+    },
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "lastUpdated": "September 2026",
+      "intro1": "Your data isn't the product here — the stories are. This page covers what we collect, why, and how you're in control of it.",
+      "introNote": "Note: this is placeholder legal content drafted for a template — have it reviewed by a lawyer before it governs a live product.",
+      "sections": {
+        "overview": { "heading": "1. Overview", "body": "This explains what Pulse collects when you use the platform, why, and what say you have over it. We collect as little as we reasonably can — a reading platform doesn't need to know much about you to work well." },
+        "collect": {
+          "heading": "2. What We Collect",
+          "accountInfoLabel": "Account info:",
+          "accountInfoText": " your name, email, and password (or your Google/GitHub identity if you sign in that way).",
+          "contentLabel": "Content you create:",
+          "contentText": " posts, comments, and likes.",
+          "usageLabel": "Usage data:",
+          "usageText": " basic analytics like which stories are read or liked, used to power features like \"Most Viewed.\""
+        },
+        "use": { "heading": "3. How We Use It", "body": "To run your account, show you the content you've interacted with, keep the platform secure, and understand which stories resonate so we can publish more of what's actually worth reading." },
+        "cookies": { "heading": "4. Cookies", "body": "We use a small number of cookies to keep you logged in and remember your preferences. We don't use cookies to sell your data or track you across other sites." },
+        "thirdParty": { "heading": "5. Third-Party Services", "body": "We use trusted providers to run parts of Pulse — for example, image hosting for cover photos, and Google/GitHub if you choose to sign in with them. These providers only receive what's needed to perform their function." },
+        "retention": { "heading": "6. How Long We Keep It", "body": "We keep your data for as long as your account is active. If you delete your account, we remove your personal information within a reasonable period, except where we're required to keep it longer for legal reasons." },
+        "rights": { "heading": "7. Your Rights", "body": "You can access, correct, or delete your personal data at any time from your account settings, or by reaching out to us directly." },
+        "children": { "heading": "8. Children's Privacy", "body": "Pulse isn't directed at children, and we don't knowingly collect data from anyone below the age required to hold an account in their country." },
+        "changes": { "heading": "9. Changes to This Policy", "body": "If this policy changes in a meaningful way, we'll update the date at the top of this page and, where appropriate, let you know directly." },
+        "contact": { "heading": "10. Contact", "bodyPrefix": "Pulse is a product of", "bodySuffix": ". For privacy questions or requests, reach out through the contact details on the PREX website." }
+      }
+    }
+  },
+  "Download": {
+    "hero": { "eyebrow": "Cross-Platform Experience", "title": "Download Pulse", "description": "Take your quiet reading space anywhere. Choose your platform below to get started." },
+    "platforms": {
+      "badge": "Coming Soon",
+      "windows": { "name": "Windows", "desc": "For Windows 10 & 11 (64-bit)" },
+      "linux": { "name": "Linux", "desc": "AppImage & Debian Package" },
+      "android": { "name": "Android", "desc": "APK & Google Play Store" },
+      "footer": "These options will be available soon. Development is currently in progress."
+    }
+  }
+}

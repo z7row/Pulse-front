@@ -1,0 +1,58 @@
+{
+  "Blog": {
+    "header": {
+      "journal": "المجلة",
+      "home": "الرئيسية",
+      "blog": "المدونة",
+      "about": "من نحن"
+    },
+    "detail": {
+      "loading": "جارٍ التحميل...",
+      "commentsCount": "التعليقات ({count})",
+      "addComment": "أضف تعليقاً",
+      "cancel": "إلغاء",
+      "commentPlaceholder": "اكتب تعليقك",
+      "publish": "نشر",
+      "noComments": "لا توجد تعليقات بعد.",
+      "commentFailed": "حدثت مشكلة"
+    },
+    "commentCard": {
+      "loading": "جارٍ التحميل...",
+      "user": "مستخدم",
+      "unknownAuthor": "كاتب مجهول",
+      "deleteTitle": "هل أنت متأكد تماماً؟",
+      "deleteDesc": "لا يمكن التراجع عن هذا الإجراء. سيتم حذف تعليقك نهائياً.",
+      "cancel": "إلغاء",
+      "delete": "حذف"
+    },
+    "form": {
+      "titleLabel": "العنوان",
+      "titlePlaceholder": "عنوان المقال",
+      "categoryLabel": "التصنيف",
+      "categoryPlaceholder": "تقنية",
+      "typeLabel": "النوع",
+      "typeBlog": "مقال",
+      "typePost": "منشور",
+      "authorLabel": "الكاتب",
+      "authorPlaceholder": "اسم الكاتب",
+      "contentLabel": "المحتوى",
+      "contentPlaceholder": "اكتب المحتوى...",
+      "create": "إنشاء مقال",
+      "update": "تحديث المقال"
+    },
+    "select": {
+      "placeholder": "اختر التصنيف"
+    },
+    "editor": {
+      "changeCover": "تغيير الغلاف",
+      "uploadCover": "رفع غلاف",
+      "addCover": "أضف صورة غلاف (اختياري)",
+      "coverPreview": "معاينة الغلاف",
+      "removeCover": "إزالة صورة الغلاف",
+      "writeTab": "كتابة",
+      "previewTab": "معاينة",
+      "markdownHint": "يدعم Markdown — **عريض**، *مائل*، # عنوان، - قائمة، > اقتباس",
+      "editorPlaceholder": "اكتب قصتك بصيغة Markdown…"
+    }
+  }
+}

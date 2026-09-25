@@ -1,0 +1,58 @@
+{
+  "Blog": {
+    "header": {
+      "journal": "Journal",
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About"
+    },
+    "detail": {
+      "loading": "Loading...",
+      "commentsCount": "Comments ({count})",
+      "addComment": "Add Comment",
+      "cancel": "Cancel",
+      "commentPlaceholder": "add your comment",
+      "publish": "Publish",
+      "noComments": "No comments yet.",
+      "commentFailed": "There's a problem"
+    },
+    "commentCard": {
+      "loading": "Loading...",
+      "user": "User",
+      "unknownAuthor": "Unknown Author",
+      "deleteTitle": "Are you absolutely sure?",
+      "deleteDesc": "This action cannot be undone. This will permanently delete your comment.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "form": {
+      "titleLabel": "Title",
+      "titlePlaceholder": "Blog title",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Technology",
+      "typeLabel": "Type",
+      "typeBlog": "Blog",
+      "typePost": "Post",
+      "authorLabel": "Author",
+      "authorPlaceholder": "Author name",
+      "contentLabel": "Content",
+      "contentPlaceholder": "Write your content...",
+      "create": "Create Blog",
+      "update": "Update Blog"
+    },
+    "select": {
+      "placeholder": "Select category"
+    },
+    "editor": {
+      "changeCover": "Change Cover",
+      "uploadCover": "Upload Cover",
+      "addCover": "Add a cover image (optional)",
+      "coverPreview": "Cover preview",
+      "removeCover": "Remove cover image",
+      "writeTab": "Write",
+      "previewTab": "Preview",
+      "markdownHint": "Markdown supported — **bold**, *italic*, # heading, - list, > quote",
+      "editorPlaceholder": "Write your story in Markdown…"
+    }
+  }
+}
