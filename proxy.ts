@@ -14,10 +14,8 @@ export default function proxy(request: NextRequest) {
     pathname.includes('/auth/verify-email') || 
     pathname.includes('/blog');
 
-  // تشغيل مسارات next-intl
   const response = intlMiddleware(request);
 
-  // إضافة الهيدر بتاعك
   response.headers.set(
     'x-middleware-request-x-hide-navbar', 
     isAuthRoute ? 'true' : 'false'
