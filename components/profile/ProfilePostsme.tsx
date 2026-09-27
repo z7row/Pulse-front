@@ -3,27 +3,26 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Eye, Heart } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { Eye, Heart, Pencil, Trash2 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { deletePost, getidPosts } from "@/lib/api/profile";
+import { deletePost, getidPosts, getMyPosts } from "@/lib/api/profile";
 import { Blog } from "@/lib/blogs";
 
-export default function ProfilePostsMe({ id }: { id: string | "" }) {
+export default function ProfilePosts() {
   const t = useTranslations("Profile.posts");
   const [posts, setPosts] = useState<Blog[]>([]);
   const [loading, setLoading] = useState(true);
   const [deletingId, setDeletingId] = useState<string | null>(null);
   const [isDeleting, setIsDeleting] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
-    setLoading(true);
-    async function getidPostss() {
-      const postsapi = await getidPosts(id, 1, 10);
-      setPosts(postsapi.blogs);
-    }
-    getidPostss();
-    setLoading(false);
-  }, [id]);
+    getMyPosts()
+      .then((data) => setPosts(data.blogs || []))
+      .catch((err) => console.error(err))
+      .finally(() => setLoading(false));
+  }, []);
 
   const handleDelete = async () => {
     if (!deletingId) return;
@@ -37,7 +36,6 @@ export default function ProfilePostsMe({ id }: { id: string | "" }) {
       alert(t("deleteError"));
     } finally {
       setIsDeleting(false);
-      setLoading(false);
     }
   };
 
@@ -46,7 +44,7 @@ export default function ProfilePostsMe({ id }: { id: string | "" }) {
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {[1, 2, 3].map((i) => (
           <div key={i} className="animate-pulse space-y-3">
-            <div className="aspect-4/3 rounded-2xl bg-muted" />
+            <div className="aspect-[4/3] rounded-2xl bg-muted" />
             <div className="h-4 w-1/4 rounded bg-muted" />
             <div className="h-5 w-3/4 rounded bg-muted" />
           </div>
@@ -55,7 +53,7 @@ export default function ProfilePostsMe({ id }: { id: string | "" }) {
     );
   }
 
-  if (!posts && !loading) {
+  if (posts.length === 0 && !loading) {
     return (
       <div className="mt-12 text-center text-sm text-muted-foreground">
         {t("empty")}
@@ -78,7 +76,7 @@ export default function ProfilePostsMe({ id }: { id: string | "" }) {
                   alt={post.title}
                   width={800}
                   height={500}
-                  className="aspect-4/3 w-full object-cover transition-transform duration-500"
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-500"
                 />
               </div>
 
@@ -105,6 +103,23 @@ export default function ProfilePostsMe({ id }: { id: string | "" }) {
                   <Eye className="w-3.5 h-3.5" />
                   {post.views || 0}
                 </span>
+              </div>
+
+              <div className="flex gap-2">
+                <button
+                  onClick={() => router.push(`/blog/${post._id}/edit`)}
+                  className="p-1.5 rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
+                  title={t("editTitle")}
+                >
+                  <Pencil className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={() => setDeletingId(post._id)}
+                  className="p-1.5 rounded-lg hover:bg-destructive/10 text-muted-foreground hover:text-destructive transition-colors"
+                  title={t("deleteTitle")}
+                >
+                  <Trash2 className="w-4 h-4" />
+                </button>
               </div>
             </div>
           </div>
