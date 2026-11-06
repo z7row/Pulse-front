@@ -44,7 +44,7 @@ export default function ProfilePosts() {
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {[1, 2, 3].map((i) => (
           <div key={i} className="animate-pulse space-y-3">
-            <div className="aspect-[4/3] rounded-2xl bg-muted" />
+            <div className="aspect-4/3 rounded-2xl bg-muted" />
             <div className="h-4 w-1/4 rounded bg-muted" />
             <div className="h-5 w-3/4 rounded bg-muted" />
           </div>
@@ -76,7 +76,7 @@ export default function ProfilePosts() {
                   alt={post.title}
                   width={800}
                   height={500}
-                  className="aspect-[4/3] w-full object-cover transition-transform duration-500"
+                  className="aspect-4/3 w-full object-cover transition-transform duration-500"
                 />
               </div>
 

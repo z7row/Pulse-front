@@ -20,7 +20,7 @@ export default async function NotFound() {
         priority
         className="object-cover  opacity-30"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/40 -z-10" />
+      <div className="absolute inset-0 bg-linear-to-t from-background via-background/80 to-background/40 -z-10" />
 
       <div className="max-w-md mx-auto px-6 text-center z-10">
         <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-6">

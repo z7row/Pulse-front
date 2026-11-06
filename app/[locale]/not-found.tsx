@@ -21,7 +21,7 @@ export default function NotFound() {
         priority
         className="object-cover -z-10 opacity-30"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/40 -z-10" />
+      <div className="absolute inset-0 bg-linear-to-t from-background via-background/80 to-background/40 -z-10" />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
