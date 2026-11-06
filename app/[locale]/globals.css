@@ -5,13 +5,13 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* الباليتة الخضراء النظيفة */
+  /* Clean green palette */
   --pakistan-green: #283618;
   --cornsilk: #fefae0;
   --dark-moss-green: #606c38;
   --light-moss: #7e8d52;
 
-  /* ربط مكونات shadcn بدرجات الأخضر والأوف وايت */
+  /* Wire shadcn tokens to green and off-white */
   --background: var(--pakistan-green);
   --foreground: var(--cornsilk);
 
@@ -21,11 +21,11 @@
   --popover: #1f2b13;
   --popover-foreground: var(--cornsilk);
 
-  /* الأزرار الرئيسية أصبحت بالزيتي الفاتح مع نص أوف وايت */
+  /* Primary buttons: light olive with off-white text */
   --primary: var(--dark-moss-green);
   --primary-foreground: var(--cornsilk);
 
-  /* الأزرار الثانوية بدرجة ناعمة */
+  /* Secondary buttons: softer tone */
   --secondary: #364821;
   --secondary-foreground: var(--cornsilk);
 
@@ -46,13 +46,13 @@
 }
 
 @theme inline {
-  /* ألوان مخصصة */
+  /* Custom colors */
   --color-pakistan-green: var(--pakistan-green);
   --color-cornsilk: var(--cornsilk);
   --color-dark-moss: var(--dark-moss-green);
   --color-light-moss: var(--light-moss);
 
-  /* تسجيل متغيرات shadcn */
+  /* Register shadcn variables */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -90,12 +90,12 @@
   }
 }
 
-/* إخفاء السكرول بار لمتصفحات Chrome و Safari و Opera */
+/* Hide scrollbar in Chrome, Safari, and Opera */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* إخفاء السكرول بار لمتصفح Firefox ومتصفحات IE */
+/* Hide scrollbar in Firefox and IE */
 html, body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */

@@ -212,7 +212,6 @@ export default function EditProfilePage() {
                         </div>
                     )}
 
-                    {/* استبدل السطر القديم بالسطر ده */}
                     <BannerUpload
                         bannerPreview={bannerPreview}
                         currentBanner={user.banner}

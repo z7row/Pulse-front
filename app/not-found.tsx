@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Compass, ArrowLeft } from "lucide-react";
 import { getLocale, getTranslations } from "next-intl/server";
 import { nature, royal } from "@/lib/fonts";
-import "./[locale]/globals.css"; // أو "@/app/globals.css"
+import "./[locale]/globals.css";
 
 export default async function NotFound() {
   const t = await getTranslations("Error");
